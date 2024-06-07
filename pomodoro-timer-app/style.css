@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at -2.9% 3.1%, #e71515 10%, rgb(255, 124, 0) 19.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    background: radial-gradient(circle at -8.9% 1.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 13.9%, rgb(255, 163, 77) 19.9%, rgb(255, 163, 77) 44.4%, rgb(19, 30, 37) 63.5%, rgb(24, 51, 68) 96%);
+    width: min(90%, 550px);
+    
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 4em 2em;
+    border-radius: 0.9em;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.section-container{
+    display: flex;
+    gap: 1.1em;
+    justify-content: center;
+}
+.btn{
+    width: 200px;
+    height: 65px;
+    padding: 1em 2em;
+    border-radius: 0.7em;
+    background-color: #3e3f43;
+    color: #a9a7a7;
+}
+.btn-focus{
+    background-color: #cb202d;
+    color: white;   
+}
+.time-btn-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+#time{
+    text-align: center;
+    color: #ffffff;
+    font-size: 5em;
+    font-weight: 600;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 2.2em;
+
+}
+#btn-start, #btn-pause{
+    width: 150px;
+    height: 50px;
+    padding: 1em 2em;
+    border-radius: 0.6em;
+    cursor: pointer;
+    background-color: #ffffff;
+
+}
+#btn-reset{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 2em;
+}
+.hide{
+    display: none;
+
+}
+.show{
+    display: block;
+}
